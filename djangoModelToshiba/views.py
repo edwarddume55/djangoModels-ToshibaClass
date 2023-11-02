@@ -4,4 +4,4 @@ from djangoModelToshiba.forms import  wanafunziform
 
 def home(request):
     stu=wanafunziform
-    return  render(request, 'index.html', {'form':stu})
+    return render(request, 'index.html', {'form':stu})
